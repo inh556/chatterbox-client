@@ -7,6 +7,7 @@
 
     <!-- dependencies -->
     <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
     <script>
       // YOU DO NOT NEED TO EDIT THIS CODE
       if (!/(&|\?)username=/.test(window.location.search)) {
@@ -30,6 +31,12 @@
         <input type="text" id="inputtext">
         <button id="submitbtn" type="button">submit</button>
       </form>
+      <select id="roomselect">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
     </div>
     <div id="chats"></div>
   </body>

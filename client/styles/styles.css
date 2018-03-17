@@ -54,6 +54,7 @@ form {
 
 form input[type=text] {
     margin-right: 10px;
+    margin-top: 10px;
     width: 70%;
     font-size: 12px;
     padding: 5px;
